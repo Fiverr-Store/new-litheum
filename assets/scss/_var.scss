@@ -1,0 +1,24 @@
+@font-face {
+  font-family: litheum-text;
+  src: url('../fonts/Litheum-Text.woff2');
+}
+
+@font-face {
+  font-family: litheum-title;
+  src: url('../fonts/Litheum-Title.woff2');
+}
+
+$font-text: litheum-text;
+$font-title: litheum-title;
+
+$main-color:#000;
+$primary-color:#EAFF56;
+$one-color:#61CBC0;
+$second-color:#576c51;
+$third-color:#525129;
+$fourth-color:#AFAD8E;
+$section-bg:#fef5ff;
+$text-color: rgba(255,255,255,.7);
+$title-color:#fff;
+$bg-color:#f8f9fa;
+$link-color: $primary-color;

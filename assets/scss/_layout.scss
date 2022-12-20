@@ -1,0 +1,183 @@
+/*--------------------------------------------------------------
+# gl
+--------------------------------------------------------------*/
+.gl{
+  .gl-text{
+    max-width: 320px;
+    @media only screen and (max-width: 991px) {
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+    }
+    h2{
+      font-size: 74px;
+      color: $primary-color;
+      margin-bottom: 30px;
+      @media only screen and (max-width: 1199px) {
+       font-size: 64px;
+      }
+      @media only screen and (max-width: 991px) {
+       font-size: 54px;
+       margin-bottom: 16px;
+      }
+    }
+    p{
+      @media only screen and (max-width: 767px) {
+       font-size: 15px;
+      }
+    }
+  }
+  .gl-bix{
+    text-align: center;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+   padding-top: 150px;
+   padding-bottom: 170px;
+   @media only screen and (max-width: 991px) {
+    padding-top: 100px;
+    padding-bottom: 120px;
+   }
+   @media only screen and (max-width: 767px) {
+    padding-top: 80px;
+    padding-bottom: 90px;
+   }
+
+    h3{
+      font-size: 44px;
+      @media only screen and (max-width: 991px) {
+       font-size: 34px;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 27px;
+      }
+    }
+    span{
+      color: $primary-color;
+    }
+  }
+
+}
+
+/*--------------------------------------------------------------
+# f-sec
+--------------------------------------------------------------*/
+.f-sec{
+
+  .f-con{
+    position: relative;
+  }
+  .bg-bl{
+    width: 100%;
+    height: auto;
+    @media only screen and (max-width: 991px) {
+     display: none;
+    }
+  }
+  .f-txt{
+
+    display: block;
+    width: 100%;
+    max-width: 470px;
+    @media only screen and (min-width: 992px) {
+      position: absolute;
+      top: 50%;
+      left: 16%;
+      transform: translateY(-50%);
+    }
+    @media only screen and (max-width: 991px) {
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+    }
+    h2{
+      font-size: 65px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      @media only screen and (max-width: 1299px) {
+       font-size: 56px;
+      }
+      @media only screen and (max-width: 991px) {
+       font-size: 46px;
+       margin-bottom: 16px;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 38px;
+      }
+    }
+    p{
+      &:not(:last-child) {
+      margin-bottom: 16px;
+      @media only screen and (max-width: 767px) {
+       margin-bottom: 12px;
+      }
+      }
+      font-size: 16px;
+      @media only screen and (max-width: 767px) {
+       font-size: 15px;
+      }
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# re-sec
+--------------------------------------------------------------*/
+.re-sec{
+ padding-top: 140px;
+ padding-bottom: 110px;
+ @media only screen and (max-width: 991px) {
+  padding-top: 100px;
+  padding-bottom: 80px;
+ }
+ @media only screen and (max-width: 767px) {
+  padding-top: 80px;
+  padding-bottom: 70px;
+ }
+ .sec-t{
+  text-align: center;
+  h2{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+      font-size: 54px;
+      color: $primary-color;
+      @media only screen and (max-width: 1299px) {
+       font-size: 45px;
+       margin-bottom: 50px;
+      }
+      @media only screen and (max-width: 991px) {
+       font-size: 40px;
+       margin-bottom: 40px;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 30px;
+      }
+
+  }
+ }
+ .re-single{
+  padding: 20px 20px;
+  border-radius: 30px;
+  border: 2px solid $primary-color;
+  height: 100%;
+  h4{
+    font-size: 23px;
+    color: $primary-color;
+    margin-bottom: 16px;
+    transition: all .2s ease-in;
+  }
+  p{
+    font-size: 15px;
+  }
+  transition: all .2s ease-in;
+  &:hover{
+    background-color: #fff;
+    color: #000;
+    h4{
+      color: #000;
+    }
+  }
+ }
+}
