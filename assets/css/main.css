@@ -1142,16 +1142,10 @@ h6 a {
   }
 }
 .how-it .borderd {
-  /** Large devices (desktops, 992px and up) **/
-}
-@media (min-width: 992px) {
-  .how-it .borderd:nth-child(1), .how-it .borderd:nth-child(2) {
-    border-right: 1px solid #000;
-  }
+  border-right: 1px solid #000;
 }
 @media only screen and (max-width: 991px) {
-  .how-it .borderd:nth-child(1), .how-it .borderd:nth-child(2) {
-    border-bottom: 1px solid #000;
+  .how-it .borderd {
     border: 0;
   }
 }

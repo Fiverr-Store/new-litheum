@@ -92,25 +92,10 @@
 		padding: 40px 0px;
 	}
   .borderd{
-    		/** Large devices (desktops, 992px and up) **/
-
-		@media (min-width: 992px) {
-			&:nth-child(1),
-			&:nth-child(2)
-       {
-				border-right: 1px solid #000;
-			}
-
-		}
+    border-right: 1px solid #000;
     @media only screen and (max-width: 991px) {
-      &:nth-child(1),
-			&:nth-child(2)
-       {
-				border-bottom: 1px solid #000;
-        border: 0;
-			}
+     border: 0;
     }
-
   }
 	.how-single {
     padding: 30px 30px;
