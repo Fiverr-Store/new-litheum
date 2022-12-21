@@ -44,7 +44,7 @@
 	.navbar-nav {
 		.nav-item {
 			position: relative;
-			margin-left: 26px;
+			margin-left: 34px;
       &:first-child{
         margin-left: 0;
       }
@@ -57,7 +57,7 @@
 			a {
         font-family: $font-title;
         text-decoration: none;
-				font-size: 15px;
+				font-size: 14px;
 				color: $title-color;
 				transition: all 0.3s ease-out 0s;
 				padding: 10px 0;
