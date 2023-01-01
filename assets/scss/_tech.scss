@@ -1,0 +1,189 @@
+/*--------------------------------------------------------------
+# tech-hero
+--------------------------------------------------------------*/
+.tech-hero{
+  padding-top: 200px;
+  padding-bottom: 70px;
+  @media only screen and (max-width: 1199px) {
+   padding-top: 150px;
+   padding-bottom: 60px;
+  }
+  @media only screen and (max-width: 767px) {
+   padding-top: 120px;
+   padding-bottom: 40px;
+  }
+  @media only screen and (max-width: 991px) {
+   text-align: center;
+  }
+  .tech-image{
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    @media only screen and (max-width: 1199px) {
+     max-width: 150px;
+    }
+    @media only screen and (max-width: 767px) {
+     max-width: 120px;
+    }
+
+  }
+  h1{
+    font-family: $font-title;
+    font-size: 75px;
+    @media only screen and (max-width: 1199px) {
+     font-size: 65px;
+    }
+    @media only screen and (max-width: 767px) {
+     font-size: 55px;
+    }
+    @media only screen and (max-width: 482px) {
+     font-size: 45px;
+    }
+
+  }
+}
+
+.tech-btns-wrap{
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  @media only screen and (max-width: 1199px) {
+   padding-top: 60px;
+  }
+  @media only screen and (max-width: 767px) {
+   padding-top: 30px;
+  }
+  @media only screen and (max-width: 482px) {
+   padding-top: 15px;
+  }
+  .tech-btn{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px 8px 15px;
+    min-width: 130px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: all .2s ease-in;
+    &:hover{
+
+      background-color: #fff;
+      color: $main-color;
+    }
+
+  }
+}
+
+
+/*--------------------------------------------------------------
+# tech-cta
+--------------------------------------------------------------*/
+.tech-cta{
+  padding: 180px 0px;
+  @media only screen and (max-width: 1199px) {
+   padding: 120px;
+  }
+  @media only screen and (max-width: 991px) {
+   padding: 100px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+   padding: 70px 0px;
+  }
+  text-align: center;
+  h2{
+    font-size: 46px;
+    color: $primary-color;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2;
+    @media only screen and (max-width: 1199px) {
+     font-size: 40px;
+     max-width: 680px;
+    }
+    @media only screen and (max-width: 767px) {
+     font-size: 32px;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# maps
+--------------------------------------------------------------*/
+
+.maps{
+  padding-top: 60px;
+  padding-bottom: 80px;
+  @media only screen and (max-width: 991px) {
+   padding-top: 40px;
+   padding-bottom: 50px;
+  }
+.map-wrap{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-bottom: 14px;
+  li{
+    font-size: 20px;
+    color: $primary-color;
+    @media only screen and (max-width: 767px) {
+     font-size: 18px;
+    }
+  }
+}
+.mt-wrap{
+  text-align: center;
+  span{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  @media only screen and (max-width: 991px) {
+    max-width: 300px;
+   }
+}
+.m-t{
+  display: block;
+  text-align: center;
+  padding: 9px 15px 7px 15px;
+  border-radius: 50px;
+  background-color: $primary-color;
+  color: $main-color;
+  p{
+    font-family: $font-title;
+    font-size: 21px;
+    @media only screen and (max-width: 767px) {
+     font-size: 17px;
+    }
+  }
+
+}
+.aro{
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  @media only screen and (max-width: 991px) {
+   display: none;
+  }
+}
+}
