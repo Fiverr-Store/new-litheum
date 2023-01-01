@@ -187,3 +187,200 @@ ul{
   }
 }
 }
+
+
+/*--------------------------------------------------------------
+# dapp
+--------------------------------------------------------------*/
+.dapp{
+  position: relative;
+  padding: 180px 0px;
+  @media only screen and (max-width: 1199px) {
+   padding: 140px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+   padding: 100px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+   padding: 70px 0px;
+  }
+  .dapt{
+    h2{
+      font-size: 77px;
+      color: $primary-color;
+      @media only screen and (max-width: 1199px) {
+       font-size: 60px;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 50px;
+      }
+      @media only screen and (max-width: 492px) {
+       font-size: 40px;
+      }
+    }
+    p{
+      font-size: 22px;
+      color: $primary-color;
+    }
+  }
+  .dap-tx{
+    max-width: 360px;
+    span{
+      color: $primary-color;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .re-in{
+    width: 100%;
+    max-width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    @media only screen and (max-width: 1199px) {
+     max-width: 280px;
+    }
+    @media only screen and (max-width: 767px) {
+     display: none;
+    }
+  }
+}
+
+.dap-social{
+  padding-top: 25px;
+  @media only screen and (max-width: 767px) {
+   padding-top: 15px;
+  }
+  a{
+    &:not(:last-child) {
+    margin-right: 15px;
+    @media only screen and (max-width: 767px) {
+     margin-right: 8px;
+    }
+    }
+    display: inline-block;
+    text-decoration: none;
+    img{
+      height: 24px;
+    }
+  }
+}
+
+
+/*--------------------------------------------------------------
+# real
+--------------------------------------------------------------*/
+
+.real{
+  text-align: center;
+  padding: 200px 0px;
+  @media only screen and (max-width: 1199px) {
+   padding: 130px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+   padding: 100px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+   padding: 80px 0px;
+  }
+  h2{
+    font-size: 10vw;
+    @media only screen and (max-width: 1199px) {
+     font-size: 120px;
+    }
+    @media only screen and (max-width: 767px) {
+     font-size: 100px;
+    }
+    @media only screen and (max-width: 482px) {
+     font-size: 80px;
+    }
+    span{
+      color: $primary-color;
+    }
+  }
+}
+
+
+/*--------------------------------------------------------------
+# webs
+--------------------------------------------------------------*/
+.webs{
+  padding: 100px 0px;
+  @media only screen and (max-width: 1199px) {
+   padding: 80px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+   padding: 50px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+   padding: 40px 0px;
+  }
+  .webs-con{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .web-single{
+    text-align: center;
+
+    h3{
+      font-size: 37px;
+      color: $primary-color;
+      margin-bottom: 40px;
+      @media only screen and (max-width: 1199px) {
+       margin-bottom: 20px;
+       font-size: 30px;
+      }
+      @media only screen and (max-width: 767px) {
+       margin-bottom: 15px;
+      }
+    }
+    .img-webs{
+      width: 100%;
+      height: 190px;
+      object-fit: contain;
+      margin-bottom: 40px;
+      @media only screen and (max-width: 1199px) {
+       height: 150px;
+       margin-bottom: 20px;
+      }
+    }
+    p{
+      font-size: 16px;
+      max-width: 220px;
+      margin-left: auto;
+      margin-right: auto;
+      @media only screen and (max-width: 1199px) {
+       font-size: 15px;
+      }
+    }
+  }
+}
+
+
+/*--------------------------------------------------------------
+# graph
+--------------------------------------------------------------*/
+
+.graph{
+  padding-top: 30px;
+  padding-bottom: 80px;
+  text-align: center;
+  .gra-img{
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p{
+    font-size: 19px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+  }
+}
