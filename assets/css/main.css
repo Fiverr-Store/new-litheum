@@ -172,27 +172,6 @@ h6 a {
   }
 }
 
-.btn-main {
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  border: 0;
-  padding: 10px 25px;
-  border-radius: 7px;
-  min-width: 160px;
-  background-color: #fff;
-  border: 1.6px solid #000;
-  color: #000;
-  font-size: 15px;
-  font-weight: 500;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-.btn-main:hover {
-  background-color: #576c51;
-}
-
 /*--------------------------------------------------------------
 # navbar
 --------------------------------------------------------------*/
@@ -1524,6 +1503,16 @@ h6 a {
   padding-bottom: 80px;
   text-align: center;
 }
+@media only screen and (max-width: 991px) {
+  .graph {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .graph {
+    padding-bottom: 50px;
+  }
+}
 .graph .gra-img {
   display: block;
   width: 100%;
@@ -1537,5 +1526,102 @@ h6 a {
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
+}
+
+/*--------------------------------------------------------------
+# mine-frame
+--------------------------------------------------------------*/
+.mine-frame {
+  padding: 80px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .mine-frame {
+    text-align: center;
+    padding: 50px 0px;
+  }
+}
+.mine-frame h1 {
+  color: #EAFF56;
+  font-size: 8vw;
+  display: inline-block;
+}
+@media only screen and (max-width: 1199px) {
+  .mine-frame h1 {
+    font-size: 87px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .mine-frame h1 {
+    margin-bottom: 10px;
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mine-frame h1 {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .mine-frame h1 {
+    font-size: 60px;
+  }
+}
+.mine-frame h1 span {
+  display: inline-block;
+  position: relative;
+}
+.mine-frame h1 span::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 8px;
+  background-color: #EAFF56;
+}
+.mine-frame .mine-text p {
+  font-size: 15px;
+}
+.mine-frame .mine-text p:not(:last-child) {
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .mine-frame .mine-text p:not(:last-child) {
+    margin-bottom: 18px;
+  }
+}
+.mine-frame .mine-text p span {
+  color: #EAFF56;
+}
+
+.mint-btns {
+  padding-top: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .mint-btns {
+    padding-top: 26px;
+  }
+}
+.mint-btns .btn-mine {
+  text-decoration: none;
+  display: inline-block;
+  padding: 9px 15px 7px 15px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.mint-btns .btn-mine:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media only screen and (max-width: 767px) {
+  .mint-btns .btn-mine {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

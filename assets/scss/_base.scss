@@ -169,24 +169,3 @@ h6 a {
    padding: 50px 0px;
   }
 }
-
-
-.btn-main{
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  border: 0;
-  padding: 10px 25px;
-  border-radius: 7px;
-  min-width: 160px;
-  background-color: #fff;
-  border: 1.6px solid $main-color;
-  color: $main-color;
-  font-size: 15px;
-  font-weight: 500;
-  transition: all .2s ease-in;
-  &:hover{
-    background-color: $second-color;
-  }
-}
