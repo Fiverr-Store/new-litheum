@@ -4,3 +4,38 @@
 .farm-cpu-bg{
   background-color: #545429;
 }
+
+/*--------------------------------------------------------------
+# cpu-hero
+--------------------------------------------------------------*/
+
+.cpu-hero{
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .cpu-img{
+   width: 100%;
+   height: auto;
+   max-width: 1000px;
+
+  }
+}
+
+/*--------------------------------------------------------------
+# circle-sec
+--------------------------------------------------------------*/
+
+.circle-sec{
+  text-align: center;
+  padding-bottom: 80px;
+  @media only screen and (max-width: 767px) {
+   padding-bottom: 50px;
+  }
+  .circle-img{
+    width: 100%;
+    height: auto;
+    max-width: 1100px;
+  }
+}
