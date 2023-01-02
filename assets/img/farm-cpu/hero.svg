@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1205.849" height="642.286" viewBox="0 0 1205.849 642.286">
+  <g id="Group_55" data-name="Group 55" transform="translate(-8321.078 -1357)">
+    <text id="Farm." transform="translate(8938.151 1569.118)" fill="#ebff55" font-size="131.765" font-family="Lucky-Linear, Lucky Linear"><tspan x="-191.784" y="0">Farm.</tspan></text>
+    <g id="Group_54" data-name="Group 54">
+      <g id="Group_53" data-name="Group 53">
+        <g id="Group_52" data-name="Group 52">
+          <path id="Path_225" data-name="Path 225" d="M9263.98,1969.012,9525.6,1707.389c-34.476-45.374-98.3-110.371-167.566-169.707-81.753-70.038-230.979-179.723-432.253-179.682-200.557.041-348.09,110.42-432.271,179.682-58.078,47.784-135.926,126.809-171.111,173.269l257.022,257.024,341.759-341.759Z" fill="none" stroke="#ebff55" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+        <path id="Path_226" data-name="Path 226" d="M8590.383,1957.017,8340.5,1688.542c-6.817,8.033-12.931,15.58-18.1,22.409l257.022,257.024Z" fill="#ebff55"/>
+      </g>
+      <text id="_2.49_" data-name="2.49%" transform="translate(8925.193 1969.286)" fill="#ebff55" font-size="131.765" font-family="Lucky-Linear, Lucky Linear"><tspan x="-201.666" y="0">2.49%</tspan></text>
+      <text id="CPU_Busy" data-name="CPU Busy" transform="translate(8925.191 1816.771)" fill="#fff" font-size="31.576" font-family="Lucky-Linear, Lucky Linear"><tspan x="-80.787" y="0">CPU Busy</tspan></text>
+    </g>
+  </g>
+</svg>
