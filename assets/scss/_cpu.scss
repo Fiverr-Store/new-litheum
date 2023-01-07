@@ -222,4 +222,21 @@
       color: $primary-color;
     }
   }
+  .coin-img{
+    text-align: center;
+    padding-bottom: 90px;
+    @media only screen and (max-width: 991px) {
+      padding-bottom: 50px;
+     }
+    .farming-coin{
+      width: 100%;
+      max-width: 250px;
+      @media only screen and (max-width: 991px) {
+       max-width: 200px;
+      }
+      @media only screen and (max-width: 482px) {
+       max-width: 180px;
+      }
+    }
+  }
 }
