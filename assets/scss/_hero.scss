@@ -8,7 +8,10 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-
+  @media only screen and (max-width: 482px) {
+   min-height: auto;
+   padding-top: 120px;
+  }
 
   .hero-text{
     text-align: center;
