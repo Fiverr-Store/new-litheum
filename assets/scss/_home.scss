@@ -248,6 +248,14 @@
 			@media only screen and (max-width: 767px) {
 				font-size: 21px;
 			}
+      a{
+        text-decoration: none;
+        color: $primary-color;
+        &:hover{
+          text-decoration: underline;
+          color: $primary-color;
+        }
+      }
 		}
 	}
 	.btn-solid {
