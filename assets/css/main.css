@@ -937,6 +937,13 @@ h6 a {
     font-size: 45px;
   }
 }
+.farming-sec .sec-t h2 a {
+  text-decoration: none;
+  color: #EAFF56;
+}
+.farming-sec .sec-t h2 a:hover {
+  color: #EAFF56;
+}
 .farming-sec .ming-single {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -978,6 +985,14 @@ h6 a {
   .farming-sec .ming-single h5 {
     font-size: 21px;
   }
+}
+.farming-sec .ming-single h5 a {
+  text-decoration: none;
+  color: #EAFF56;
+}
+.farming-sec .ming-single h5 a:hover {
+  text-decoration: underline;
+  color: #EAFF56;
 }
 .farming-sec .btn-solid {
   min-width: 180px;
