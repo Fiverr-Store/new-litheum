@@ -30,6 +30,13 @@ section {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 480px) {
+  .wow {
+    -webkit-animation-name: none !important;
+    animation-name: none !important;
+    visibility: visible !important;
+  }
+}
 .section-padding {
   padding: 80px 0px;
 }
