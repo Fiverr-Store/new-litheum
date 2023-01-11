@@ -68,53 +68,34 @@
     position: relative;
   }
   .bg-bl{
-    height: 80vh;
     width: 100%;
-    object-fit: contain;
+    height: auto;
     @media only screen and (max-width: 991px) {
      display: none;
     }
   }
   .f-txt{
+
     display: block;
     width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 18%;
-    transform: translateY(-50%);
-   @media only screen and (max-width: 1899px) {
-    position: absolute;
-    top: 50%;
-    left: 21%;
-    transform: translateY(-50%);
-   }
-   @media only screen and (max-width: 1399px) {
-    position: absolute;
-    top: 51%;
-    left: 17%;
-    transform: translateY(-50%);
-   }
-   @media only screen and (max-width: 1299px) {
-    left: 15%;
-   }
+    max-width: 470px;
+    @media only screen and (min-width: 992px) {
+      position: absolute;
+      top: 50%;
+      left: 16%;
+      transform: translateY(-50%);
+    }
     @media only screen and (max-width: 991px) {
-      position: relative;
-      left: unset;
-      top: unset;
-      transform: none;
      text-align: center;
      margin-left: auto;
      margin-right: auto;
     }
     h2{
-      font-size:3.4vw;
+      font-size: 65px;
       line-height: 1.2;
       margin-bottom: 20px;
-      @media only screen and (max-width: 1899px) {
-      font-size: 3.0vw;
-       }
       @media only screen and (max-width: 1299px) {
-        font-size: 3.0vw;
+       font-size: 56px;
       }
       @media only screen and (max-width: 991px) {
        font-size: 46px;
@@ -125,22 +106,13 @@
       }
     }
     p{
-      max-width: 420px;
       &:not(:last-child) {
       margin-bottom: 16px;
-      @media only screen and (max-width: 1399px) {
-       max-width: 370px;
-      }
-      @media only screen and (max-width: 991px) {
+      @media only screen and (max-width: 767px) {
        margin-bottom: 12px;
-
       }
       }
       font-size: 16px;
-      @media only screen and (max-width: 991px) {
-        margin-left: auto;
-       margin-right: auto;
-      }
       @media only screen and (max-width: 767px) {
        font-size: 15px;
       }
@@ -246,7 +218,6 @@
 			@media only screen and (max-width: 482px) {
 				font-size: 45px;
 			}
-
 		}
 	}
 	.ming-single {
@@ -277,15 +248,6 @@
 			@media only screen and (max-width: 767px) {
 				font-size: 21px;
 			}
-      a{
-        text-decoration: none;
-        color: $primary-color;
-        transition: all .2s ease-in;
-        &:hover{
-          text-decoration: underline;
-          color: $primary-color;
-        }
-      }
 		}
 	}
 	.btn-solid {

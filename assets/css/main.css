@@ -747,10 +747,8 @@ h6 a {
   position: relative;
 }
 .f-sec .bg-bl {
-  height: 80vh;
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  height: auto;
 }
 @media only screen and (max-width: 991px) {
   .f-sec .bg-bl {
@@ -760,60 +758,32 @@ h6 a {
 .f-sec .f-txt {
   display: block;
   width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 18%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  max-width: 470px;
 }
-@media only screen and (max-width: 1899px) {
+@media only screen and (min-width: 992px) {
   .f-sec .f-txt {
     position: absolute;
     top: 50%;
-    left: 21%;
+    left: 16%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-  }
-}
-@media only screen and (max-width: 1399px) {
-  .f-sec .f-txt {
-    position: absolute;
-    top: 51%;
-    left: 17%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-}
-@media only screen and (max-width: 1299px) {
-  .f-sec .f-txt {
-    left: 15%;
   }
 }
 @media only screen and (max-width: 991px) {
   .f-sec .f-txt {
-    position: relative;
-    left: unset;
-    top: unset;
-    -webkit-transform: none;
-            transform: none;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .f-sec .f-txt h2 {
-  font-size: 3.4vw;
+  font-size: 65px;
   line-height: 1.2;
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 1899px) {
-  .f-sec .f-txt h2 {
-    font-size: 3vw;
-  }
-}
 @media only screen and (max-width: 1299px) {
   .f-sec .f-txt h2 {
-    font-size: 3vw;
+    font-size: 56px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -828,26 +798,14 @@ h6 a {
   }
 }
 .f-sec .f-txt p {
-  max-width: 420px;
   font-size: 16px;
 }
 .f-sec .f-txt p:not(:last-child) {
   margin-bottom: 16px;
 }
-@media only screen and (max-width: 1399px) {
-  .f-sec .f-txt p:not(:last-child) {
-    max-width: 370px;
-  }
-}
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .f-sec .f-txt p:not(:last-child) {
     margin-bottom: 12px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .f-sec .f-txt p {
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1020,16 +978,6 @@ h6 a {
   .farming-sec .ming-single h5 {
     font-size: 21px;
   }
-}
-.farming-sec .ming-single h5 a {
-  text-decoration: none;
-  color: #EAFF56;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-.farming-sec .ming-single h5 a:hover {
-  text-decoration: underline;
-  color: #EAFF56;
 }
 .farming-sec .btn-solid {
   min-width: 180px;
