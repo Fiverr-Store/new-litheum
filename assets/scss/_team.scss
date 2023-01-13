@@ -1,0 +1,76 @@
+/*--------------------------------------------------------------
+# cpu-hero
+--------------------------------------------------------------*/
+
+.team-hero {
+	text-align: center;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.cpu-img {
+		width: 100%;
+		height: auto;
+		max-width: 1100px;
+		@media only screen and (max-width: 1699px) {
+			max-width: 900px;
+		}
+		@media only screen and (max-width: 1499px) {
+			max-width: 800px;
+		}
+		@media only screen and (max-width: 1299px) {
+			max-width: 700px;
+		}
+	}
+}
+/*--------------------------------------------------------------
+# team-sec
+--------------------------------------------------------------*/
+.team-sec {
+	padding: 80px 0px;
+	@media only screen and (max-width: 991px) {
+		padding: 60px 0px;
+    text-align: center;
+	}
+	@media only screen and (max-width: 767px) {
+		padding: 50px 0px;
+	}
+	.team-img {
+		width: 100%;
+    height: auto;
+    border-radius: 100%;
+    @media only screen and (max-width: 991px) {
+     max-width: 400px;
+    }
+    @media only screen and (max-width: 767px) {
+     max-width: 300px;
+    }
+
+	}
+}
+.team-txt{
+  h3{
+    font-size: 32px;
+    color: $primary-color;
+    @media only screen and (max-width: 767px) {
+     font-size: 25px;
+    }
+  }
+  h5{
+    font-size: 20px;
+    color: $primary-color;
+    margin-bottom: 26px;
+    @media only screen and (max-width: 991px) {
+     margin-bottom: 15px;
+    }
+    @media only screen and (max-width: 767px) {
+     font-size: 17px;
+    }
+  }
+  p{
+    &:not(:last-child) {
+    margin-bottom: 16px;
+    }
+    font-size: 15px;
+  }
+}
