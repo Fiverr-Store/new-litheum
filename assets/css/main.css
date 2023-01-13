@@ -1959,7 +1959,7 @@ h6 a {
 --------------------------------------------------------------*/
 .eco-hero {
   text-align: center;
-  padding-top: 140px;
+  padding-top: 130px;
 }
 @media only screen and (max-width: 991px) {
   .eco-hero {
@@ -1974,7 +1974,7 @@ h6 a {
 .eco-hero .cpu-img {
   width: 100%;
   height: auto;
-  max-width: 600px;
+  max-width: 550px;
 }
 
 /*--------------------------------------------------------------
