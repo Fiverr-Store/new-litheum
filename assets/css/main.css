@@ -9,6 +9,15 @@
 /*--------------------------------------------------------------
 # base
 --------------------------------------------------------------*/
+::-moz-selection {
+  color: #000;
+  background: #ccc;
+}
+::selection {
+  color: #000;
+  background: #ccc;
+}
+
 body {
   font-family: litheum-text;
   font-weight: 400;
