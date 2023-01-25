@@ -1,0 +1,305 @@
+/*--------------------------------------------------------------
+# data-her
+--------------------------------------------------------------*/
+.data-her {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	.data-inner {
+		max-width: 680px;
+		margin-left: auto;
+		margin-right: auto;
+		.data-logo {
+			width: 100%;
+			max-width: 160px;
+			margin-bottom: 60px;
+			@media only screen and (max-width: 1399px) {
+				max-width: 130px;
+				margin-bottom: 40px;
+			}
+			@media only screen and (max-width: 482px) {
+				max-width: 120px;
+			}
+		}
+		h1 {
+			font-size: 46px;
+			@media only screen and (max-width: 1399px) {
+				font-size: 40px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 35px;
+			}
+			@media only screen and (max-width: 482px) {
+				font-size: 29px;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# d-map
+--------------------------------------------------------------*/
+.d-map {
+	padding-bottom: 80px;
+	@media only screen and (max-width: 991px) {
+		padding-bottom: 60px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding-bottom: 50px;
+	}
+	.data-map {
+		position: relative;
+		width: 100%;
+		height: 750px;
+		@media only screen and (max-width: 767px) {
+			height: auto;
+		}
+	}
+	.map-d-img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		@media only screen and (max-width: 767px) {
+			display: none;
+		}
+	}
+	.map-txt {
+		width: 100%;
+		position: absolute;
+		top: 52%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		max-width: 400px;
+		@media only screen and (max-width: 991px) {
+			max-width: 320px;
+		}
+		@media only screen and (max-width: 767px) {
+			position: relative;
+			top: unset;
+			left: unset;
+			transform: none;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		p {
+			@media only screen and (max-width: 991px) {
+				font-size: 15px;
+			}
+		}
+		h2 {
+			font-size: 70px;
+			color: $primary-color;
+			margin-bottom: 12px;
+			@media only screen and (max-width: 1199px) {
+				font-size: 60px;
+				margin-bottom: 10px;
+			}
+			@media only screen and (max-width: 991px) {
+				font-size: 40px;
+				margin-bottom: 10px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 44px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# pb
+--------------------------------------------------------------*/
+.pb {
+	padding: 80px 0px;
+	@media only screen and (max-width: 991px) {
+		padding: 60px 0px;
+		text-align: center;
+	}
+	@media only screen and (max-width: 767px) {
+		padding: 50px 0px;
+	}
+
+	.pb-txt {
+		p {
+			font-size: 16px;
+			&:not(:last-child) {
+				margin-bottom: 14px;
+			}
+			@media only screen and (max-width: 991px) {
+				max-width: 500px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			span {
+				display: inline;
+				color: $primary-color;
+			}
+		}
+		h3 {
+			font-size: 50px;
+			text-align: center;
+			@media only screen and (max-width: 1399px) {
+				font-size: 45px;
+			}
+			@media only screen and (max-width: 991px) {
+				font-size: 36px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 30px;
+			}
+		}
+	}
+	.pb-t {
+		text-align: center;
+		h2 {
+			font-size: 100px;
+			font-size: 7vw;
+			color: $primary-color;
+			@media only screen and (max-width: 1199px) {
+				font-size: 80px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 60px;
+			}
+		}
+		p {
+			font-family: $font-title;
+			color: $primary-color;
+			line-height: 1.3;
+			font-size: 22px;
+			@media only screen and (max-width: 767px) {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# allow
+--------------------------------------------------------------*/
+.allow {
+	padding: 80px 0px;
+	@media only screen and (max-width: 991px) {
+		padding: 60px 0px;
+		text-align: center;
+	}
+	@media only screen and (max-width: 767px) {
+		padding: 50px 0px;
+	}
+	.all-wraaper {
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.img-flex {
+		display: flex;
+		justify-content: space-between;
+		.left-img {
+			max-height: 35px;
+			@media only screen and (max-width: 767px) {
+				max-height: 26px;
+			}
+		}
+		.right-img {
+			max-height: 35px;
+			@media only screen and (max-width: 767px) {
+				max-height: 26px;
+			}
+		}
+	}
+	.img-flex-2 {
+		.left-img {
+			max-height: 35px;
+			transform: scaleY(-1);
+			@media only screen and (max-width: 767px) {
+				max-height: 26px;
+			}
+		}
+		.right-img {
+			max-height: 35px;
+			transform: scaleY(-1);
+			@media only screen and (max-width: 767px) {
+				max-height: 26px;
+			}
+		}
+	}
+	.allow-t {
+		padding: 20px 20px;
+		@media only screen and (max-width: 767px) {
+			padding: 15px 15px;
+		}
+		h2 {
+			font-size: 55px;
+			@media only screen and (max-width: 1399px) {
+				font-size: 44px;
+			}
+			@media only screen and (max-width: 991px) {
+				font-size: 35px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 30px;
+			}
+			span {
+				display: inline;
+				color: $primary-color;
+			}
+			@media only screen and (max-width: 482px) {
+				font-size: 26px;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# farmer-block
+--------------------------------------------------------------*/
+.farmer-block {
+	padding: 80px 0px;
+	@media only screen and (max-width: 991px) {
+		padding: 60px 0px;
+		text-align: center;
+	}
+	@media only screen and (max-width: 767px) {
+		padding: 50px 0px;
+	}
+	.far-inner {
+		position: relative;
+	}
+	.far-single {
+    width: 100%;
+		max-width: 150px;
+    text-align: center;
+    @media (min-width: 768px) {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    @media only screen and (max-width: 767px) {
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 16px;
+    }
+    h3{
+      font-size: 17px;
+      margin-bottom: 15px;
+    }
+		img {
+		width: 100%;
+    max-width: 90px;
+			height: auto;
+		}
+	}
+	.b-point {
+		width: 100%;
+		max-width: 450px;
+    @media only screen and (max-width: 991px) {
+     max-width: 320px;
+    }
+	}
+}
