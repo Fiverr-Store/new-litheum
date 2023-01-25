@@ -2710,7 +2710,6 @@ h6 a {
 @media only screen and (max-width: 991px) {
   .data-table {
     padding: 60px 0px;
-    text-align: center;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -2725,7 +2724,7 @@ h6 a {
 }
 .data-table .table {
   text-align: center;
-  background-color: #B0AD8F;
+  background-color: #b0ad8f;
   border-radius: 30px;
   border: 0;
   overflow: hidden;
@@ -2735,7 +2734,9 @@ h6 a {
     border-radius: 20px;
   }
 }
-.data-table td, .data-table th, .data-table tr {
+.data-table td,
+.data-table th,
+.data-table tr {
   border-color: #707070;
 }
 .data-table th {
@@ -2751,6 +2752,215 @@ h6 a {
 }
 .data-table tr {
   border-radius: 0;
+}
+
+/*--------------------------------------------------------------
+# wram-single
+--------------------------------------------------------------*/
+.wram-single {
+  padding: 80px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .wram-single {
+    padding: 60px 0px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wram-single {
+    padding: 50px 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .wram-single .sop {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.wram-single .sop .sop-img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1199px) {
+  .wram-single .sop .sop-img {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .wram-single .sop .sop-img {
+    height: auto;
+    margin-bottom: 14px;
+  }
+}
+.wram-single .sop h3 {
+  font-size: 40px;
+  color: #EAFF56;
+  margin-bottom: 20px;
+  min-height: 250px;
+}
+@media only screen and (max-width: 1199px) {
+  .wram-single .sop h3 {
+    font-size: 33px;
+    min-height: 200px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .wram-single .sop h3 {
+    min-height: 0;
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .wram-single .sop p {
+    font-size: 15px;
+  }
+}
+
+/*--------------------------------------------------------------
+# are
+--------------------------------------------------------------*/
+.are {
+  padding: 80px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .are {
+    padding: 60px 0px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .are {
+    padding: 50px 0px;
+  }
+}
+.are h2 {
+  font-size: 42px;
+  text-align: center;
+}
+@media only screen and (max-width: 1199px) {
+  .are h2 {
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .are h2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .are h2 {
+    font-size: 23px;
+  }
+}
+.are .are-txt {
+  text-align: center;
+}
+.are .are-txt h3 {
+  font-size: 25px;
+}
+@media only screen and (max-width: 767px) {
+  .are .are-txt h3 {
+    font-size: 23px;
+  }
+}
+.are .are-txt h5 {
+  font-size: 22px;
+  color: #EAFF56;
+  margin: 12px 0px;
+}
+@media only screen and (max-width: 767px) {
+  .are .are-txt h5 {
+    font-size: 20px;
+  }
+}
+.are .are-txt .arow-img {
+  max-height: 70px;
+}
+@media only screen and (max-width: 767px) {
+  .are .are-txt .arow-img {
+    max-height: 60px;
+  }
+}
+
+/*--------------------------------------------------------------
+# benefits-tab
+--------------------------------------------------------------*/
+.benefits-tab {
+  padding: 80px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .benefits-tab {
+    padding: 60px 0px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .benefits-tab {
+    padding: 50px 0px;
+  }
+}
+.benefits-tab h2 {
+  font-size: 52px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+@media only screen and (max-width: 1199px) {
+  .benefits-tab h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .benefits-tab h2 {
+    font-size: 36px;
+  }
+}
+.benefits-tab .table-warapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.benefits-tab .table {
+  text-align: center;
+  background-color: #b0ad8f;
+  border-radius: 30px;
+  border: 0;
+  overflow: hidden;
+}
+@media only screen and (max-width: 767px) {
+  .benefits-tab .table {
+    border-radius: 20px;
+  }
+}
+.benefits-tab td,
+.benefits-tab th,
+.benefits-tab tr {
+  border-color: #707070;
+}
+.benefits-tab th {
+  font-family: litheum-title;
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+.benefits-tab th:last-child {
+  background-color: #EAFF56;
+}
+.benefits-tab td {
+  border-radius: 0;
+  font-size: 15px;
+}
+.benefits-tab tr {
+  border-radius: 0;
+}
+.benefits-tab tr td:last-child {
+  background-color: #EAFF56;
 }
 
 /*--------------------------------------------------------------
