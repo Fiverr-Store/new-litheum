@@ -2656,7 +2656,7 @@ h6 a {
 @media (min-width: 768px) {
   .farmer-block .far-single {
     position: absolute;
-    top: 0;
+    top: 14%;
     left: 0;
   }
 }
@@ -2896,7 +2896,6 @@ h6 a {
 @media only screen and (max-width: 991px) {
   .benefits-tab {
     padding: 60px 0px;
-    text-align: center;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -2961,6 +2960,142 @@ h6 a {
 }
 .benefits-tab tr td:last-child {
   background-color: #EAFF56;
+}
+
+/*--------------------------------------------------------------
+# trile
+--------------------------------------------------------------*/
+.trile {
+  padding: 80px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .trile {
+    padding: 60px 0px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .trile {
+    padding: 50px 0px;
+  }
+}
+.trile h2 {
+  font-size: 55px;
+  color: #EAFF56;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 1199px) {
+  .trile h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .trile h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}
+.trile p {
+  font-size: 15px;
+}
+.trile p span {
+  display: inline;
+  color: #EAFF56;
+}
+
+/*--------------------------------------------------------------
+# cta-data
+--------------------------------------------------------------*/
+.cta-data {
+  padding: 80px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .cta-data {
+    padding: 60px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cta-data {
+    padding: 50px 0px;
+  }
+}
+.cta-data .cta-wrapier {
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-data .cta-wrapier h2 {
+  font-size: 45px;
+}
+@media only screen and (max-width: 1399px) {
+  .cta-data .cta-wrapier h2 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .cta-data .cta-wrapier h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cta-data .cta-wrapier h2 {
+    font-size: 30px;
+  }
+}
+.cta-data .cta-btns-wrap {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -7px;
+  margin-right: -7px;
+}
+@media only screen and (max-width: 1199px) {
+  .cta-data .cta-btns-wrap {
+    padding-top: 35px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cta-data .cta-btns-wrap {
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .cta-data .cta-btns-wrap {
+    padding-top: 15px;
+  }
+}
+.cta-data .cta-btns-wrap .tech-btn {
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 15px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px 8px 15px;
+  min-width: 130px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 15px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.cta-data .cta-btns-wrap .tech-btn:hover {
+  background-color: transparent;
+  border-color: #EAFF56;
+  color: #EAFF56;
 }
 
 /*--------------------------------------------------------------
