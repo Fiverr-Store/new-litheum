@@ -25,12 +25,6 @@
 		}
 	};
 
-	// No idea what this was for.... (mobile toggle cross button)
-	//===== mobile-menu-btn
-	let navbarToggler = document.querySelector(".navbar-toggler");
-		navbarToggler.addEventListener("click", function () {
-		navbarToggler.classList.toggle("active");
-	});
 
   var wow = new WOW({
     //disabled for mobile
