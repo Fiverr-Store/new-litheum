@@ -18,7 +18,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/animate.css" />
-  <link rel="stylesheet" href="assets/css/main.css?v=9" />
+  <link rel="stylesheet" href="assets/css/main.css?v=10" />
 
 </head>
 <body class="farm-cpu-bg">
@@ -29,47 +29,103 @@
         your experience and security.
       </p>
     <![endif]-->
-  <header class="header">
-    <div class="navbar-area">
-      <div class="container">
 
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="/">
-            <img src="assets/img/logo/logo.png" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    <header class="header">
+      <div class="navbar-area">
+        <div class="container">
+
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="/">
+              <img src="assets/img/logo/logo.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="toggler-icon"></span>
-            <span class="toggler-icon"></span>
-            <span class="toggler-icon"></span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
           </button>
 
-          <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-            <ul id="nav" class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a href="#"> Resources </a>
-              </li>
-              <li class="nav-item">
-                <a href="#"> Token </a>
-              </li>
-              <li class="nav-item">
-                <a href="technology.html">Technology</a>
-              </li>
-              <li class="nav-item">
-                <a href="#"> About </a>
-              </li>
-              <li class="nav-item">
-                <a class="active" href="farming.html"> Farming </a>
-              </li>
-              <li class="nav-item">
-                <a  href="ecosystem.html"> Ecosystem </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+              <ul id="nav" class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    About
+                  </a>
+                  <ul class="dropdown-menu animate slideIn dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="team.html">Team</a></li>
+                    <li><a class="dropdown-item" href="#"> FAQ </a></li>
+                    <li><a class="dropdown-item" href="#"> Contact </a></li>
+                    <li><a class="dropdown-item" href="#"> Careers </a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Ecosystem
+                  </a>
+                  <ul class="dropdown-menu animate slideIn dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="ecosystem.html"> Community </a></li>
+                    <li><a class="dropdown-item" href="#"> Tokenomics </a></li>
+                    <li><a class="dropdown-item" href="#"> Roadmap </a></li>
+                    <li><a class="dropdown-item" href="#"> Partners </a></li>
+
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Developer
+                  </a>
+                  <ul class="dropdown-menu animate slideIn dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="lucky-hash.html"> Lucky Hash </a></li>
+                    <li><a class="dropdown-item" href="#"> Proof-of-Fees </a></li>
+                    <li><a class="dropdown-item" href="farming.html"> Farming </a></li>
+                    <li><a class="dropdown-item" href="technology.html"> Technology </a></li>
+                    <li><a class="dropdown-item" href="#"> Deep Dive (Docs?) </a></li>
+                    <li><a class="dropdown-item" href="#"> DApps </a></li>
+                    <li><a class="dropdown-item" href="#"> Wallet </a></li>
+                    <li><a class="dropdown-item" href="#"> Block Explorer </a></li>
+                    <li><a class="dropdown-item" href="#"> Careers </a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Learn
+                  </a>
+                  <ul class="dropdown-menu animate slideIn dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#"> 	Enterprise </a></li>
+                    <li><a class="dropdown-item" href="#"> Mainnet </a></li>
+                    <li><a class="dropdown-item" href="#"> Testnet </a></li>
+                    <li><a class="dropdown-item" href="#"> Wiki </a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                      Blog
+                  </a>
+                  <ul class="dropdown-menu animate slideIn dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">  	Blog </a></li>
+                    <li><a class="dropdown-item" href="#"> 	Litheum Events </a></li>
+                    <li><a class="dropdown-item" href="#"> Industry Events </a></li>
+                  </ul>
+                </li>
+
+
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
+
 
   <section class="cpu-hero">
     <div class="container">
@@ -244,19 +300,20 @@
     </div><!-- /.container -->
   </section><!-- /.farming-cta -->
 
-  <footer class="main-footer footer-2">
+
+    <footer class="main-footer">
     <div class="container">
       <div class="row gy-4 justify-content-between">
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="logo-widget">
             <img src="assets/img/logo/logo-sym.png" class="footer-logo" alt="">
 
             <div class="footer-social">
               <a href="#">
-                <i class="fa-brands fa-youtube"></i>
-              </a>
-              <a href="#">
-                <i class="fa-brands fa-twitter"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path
+                    d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z" />
+                </svg>
               </a>
               <a href="#">
                 <i class="fa-brands fa-discord"></i>
@@ -268,59 +325,129 @@
                 <i class="fa-brands fa-github"></i>
               </a>
               <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                  <path
-                    d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z" />
-                </svg>
+                <i class="fa-brands fa-weixin"></i>
               </a>
+
             </div><!-- /.footer-social -->
             <div class="mang">
               <span> Managed by Litheum Foundation. </span>
             </div><!-- /.mang -->
           </div><!-- /.logo-widget -->
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-6">
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-9">
           <div class="row gy-4">
-            <div class="col-lg-6">
+            <div class="col-lg col-md-6">
               <div class="footer-links">
-                <h5> LITHEUM </h5>
+                <h5> About </h5>
                 <ul>
                   <li>
-                    <a href="#"> Grants </a>
+                    <a href="team.html"> Team </a>
                   </li>
                   <li>
-                    <a href="#"> Break Litheum </a>
+                    <a href="#"> FAQ </a>
                   </li>
                   <li>
-                    <a href="#">Media Kit </a>
+                    <a href="#"> Contact </a>
                   </li>
                   <li>
                     <a href="#"> Careers </a>
                   </li>
-                  <li>
-                    <a href="#">Disclaimer </a>
-                  </li>
+
                 </ul>
               </div><!-- /.footer-links -->
-            </div><!-- /.col-lg-6 -->
-            <div class="col-lg-6">
+            </div><!-- /.col-lg -->
+            <div class="col-lg col-md-6">
               <div class="footer-links">
-                <h5> GET CONNECTED </h5>
+                <h5> Ecosystem </h5>
                 <ul>
                   <li>
-                    <a href="#"> Ecosystem </a>
+                    <a href="ecosystem.html"> Community </a>
                   </li>
+                  <li>
+                    <a href="#"> Tokenomics </a>
+                  </li>
+                  <li>
+                    <a href="#"> Roadmap </a>
+                  </li>
+                  <li>
+                    <a href="#"> Partners </a>
+                  </li>
+
+                </ul>
+              </div><!-- /.footer-links -->
+            </div><!-- /.col-lg -->
+            <div class="col-lg col-md-6">
+              <div class="footer-links">
+                <h5> Developer </h5>
+                <ul>
+                  <li>
+                    <a href="#"> Lucky Hash </a>
+                  </li>
+                  <li>
+                    <a href="#"> Proof-of-Fees </a>
+                  </li>
+                  <li>
+                    <a href="#"> Farming </a>
+                  </li>
+                  <li>
+                    <a href="technology.html"> Technology </a>
+                  </li>
+                  <li>
+                    <a href="#"> Dapps </a>
+                  </li>
+                  <li>
+                    <a href="#"> Wallet </a>
+                  </li>
+                  <li>
+                    <a href="#">Block Explorer </a>
+                  </li>
+                  <li>
+                    <a href="#">Careers </a>
+                  </li>
+
+                </ul>
+              </div><!-- /.footer-links -->
+            </div><!-- /.col-lg -->
+            <div class="col-lg col-md-6">
+              <div class="footer-links">
+                <h5> Learn </h5>
+                <ul>
+                  <li>
+                    <a href="#"> Enterprise </a>
+                  </li>
+                  <li>
+                    <a href="#"> Mainnet </a>
+                  </li>
+                  <li>
+                    <a href="#"> Testnet </a>
+                  </li>
+                  <li>
+                    <a href="#"> Wiki </a>
+                  </li>
+
+                </ul>
+              </div><!-- /.footer-links -->
+            </div><!-- /.col-lg -->
+            <div class="col-lg col-md-6">
+              <div class="footer-links">
+                <h5> Blog </h5>
+                <ul>
                   <li>
                     <a href="#"> Blog </a>
                   </li>
                   <li>
-                    <a href="#"> Newsletter </a>
+                    <a href="#"> Litheum Events </a>
                   </li>
+                  <li>
+                    <a href="#"> Industry Events </a>
+                  </li>
+
                 </ul>
               </div><!-- /.footer-links -->
-            </div><!-- /.col-lg-6 -->
+            </div><!-- /.col-lg -->
           </div><!-- /.row -->
-        </div><!-- /.col-lg-6 -->
+        </div><!-- /.col-lg-9 -->
+
       </div><!-- /.row -->
     </div><!-- /.container -->
   </footer><!-- /.main-footer -->
