@@ -745,19 +745,45 @@ h6 a {
 }
 .hero-scial a {
   text-decoration: none;
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #000;
+  background-color: #EAFF56;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 .hero-scial a:not(:last-child) {
-  margin-right: 26px;
+  margin-right: 20px;
 }
-.hero-scial a img {
-  height: 36px;
+@media only screen and (max-width: 767px) {
+  .hero-scial a:not(:last-child) {
+    margin-right: 12px;
+  }
 }
 .hero-scial a:hover {
   -webkit-transform: translateY(-4px);
           transform: translateY(-4px);
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.hero-scial svg {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 15px;
+  fill: #000;
 }
 
 /*--------------------------------------------------------------
@@ -1173,20 +1199,17 @@ h6 a {
 # tech-hero
 --------------------------------------------------------------*/
 .tech-hero {
-  padding-top: 200px;
-  padding-bottom: 70px;
-}
-@media only screen and (max-width: 1199px) {
-  .tech-hero {
-    padding-top: 150px;
-    padding-bottom: 60px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .tech-hero {
-    padding-top: 120px;
-    padding-bottom: 40px;
-  }
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media only screen and (max-width: 991px) {
   .tech-hero {
@@ -1288,11 +1311,13 @@ h6 a {
 --------------------------------------------------------------*/
 .tech-cta {
   padding: 180px 0px;
+  min-height: 80vh;
   text-align: center;
 }
 @media only screen and (max-width: 1199px) {
   .tech-cta {
-    padding: 120px;
+    padding: 120px 0px;
+    min-height: auto;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -1912,11 +1937,11 @@ h6 a {
   }
 }
 .farmers-block .f-block {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 @media only screen and (max-width: 991px) {
   .farmers-block .f-block {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
 }
 .farmers-block .f-block .bl-img {
@@ -1939,6 +1964,14 @@ h6 a {
     font-size: 24px;
     margin-bottom: 14px;
   }
+}
+.farmers-block .f-block h4 a {
+  text-decoration: none;
+  color: #EAFF56;
+}
+.farmers-block .f-block h4 a:hover {
+  text-decoration: underline;
+  color: #EAFF56;
 }
 .farmers-block .f-block p {
   font-size: 15px;
@@ -2994,7 +3027,23 @@ h6 a {
 # allow
 --------------------------------------------------------------*/
 .allow {
-  padding: 80px 0px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media only screen and (max-width: 1199px) {
+  .allow {
+    padding: 60px 0px;
+    min-height: auto;
+    display: block;
+  }
 }
 @media only screen and (max-width: 991px) {
   .allow {
@@ -3098,11 +3147,22 @@ h6 a {
 --------------------------------------------------------------*/
 .farmer-block {
   padding: 80px 0px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
   .farmer-block {
     padding: 60px 0px;
     text-align: center;
+    display: block;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -3170,9 +3230,18 @@ h6 a {
 # data-table
 --------------------------------------------------------------*/
 .data-table {
-  padding: 80px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
   .data-table {
     padding: 60px 0px;
   }
@@ -3290,10 +3359,20 @@ h6 a {
 # are
 --------------------------------------------------------------*/
 .are {
-  padding: 80px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
   .are {
+    display: block;
     padding: 60px 0px;
     text-align: center;
   }

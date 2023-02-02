@@ -2,16 +2,13 @@
 # tech-hero
 --------------------------------------------------------------*/
 .tech-hero{
-  padding-top: 200px;
-  padding-bottom: 70px;
-  @media only screen and (max-width: 1199px) {
-   padding-top: 150px;
-   padding-bottom: 60px;
-  }
-  @media only screen and (max-width: 767px) {
-   padding-top: 120px;
-   padding-bottom: 40px;
-  }
+  width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
   @media only screen and (max-width: 991px) {
    text-align: center;
   }
@@ -92,8 +89,10 @@
 --------------------------------------------------------------*/
 .tech-cta{
   padding: 180px 0px;
+  min-height: 80vh;
   @media only screen and (max-width: 1199px) {
-   padding: 120px;
+   padding: 120px 0px;
+   min-height: auto;
   }
   @media only screen and (max-width: 991px) {
    padding: 100px 0px;

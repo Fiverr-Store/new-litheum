@@ -168,18 +168,34 @@
   @media only screen and (max-width: 991px) {
    margin-top: 40px;
    }
-  a{
+   a {
     &:not(:last-child) {
-    margin-right: 26px;
+    margin-right: 20px;
+    @media only screen and (max-width: 767px) {
+     margin-right: 12px;
     }
-    text-decoration: none;
-    display: inline-block;
-    transition: all .2s ease-in;
-    img{
-      height: 36px;
     }
-    &:hover{
-      transform: translateY(-4px);
-    }
-  }
+		text-decoration: none;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		border-radius: 50%;
+		font-size: 16px;
+		color: #000;
+		background-color: $primary-color;
+		transition: all 0.2s ease-in;
+		&:hover {
+			transform: translateY(-4px);
+      color: $main-color;
+      background-color: $text-color;
+		}
+	}
+  svg {
+		display: inline-flex;
+		height: 15px;
+		fill: #000;
+	}
 }
